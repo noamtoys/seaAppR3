@@ -3,7 +3,7 @@ import { Hero } from './components/common/Hero';
 import { Section } from './components/common/Section';
 import { ClientsLogos } from './components/common/ClientsLogos';
 import { ProcessSteps } from './components/common/ProcessSteps';
-import { Testimonials } from './components/common/Testimonials';
+// import { Testimonials } from './components/common/Testimonials';
 import { FAQ } from './components/common/FAQ';
 import { ProjectsTabs } from './components/projects/ProjectsTabs';
 import { WhyChooseUs } from './components/common/WhyChooseUs';
