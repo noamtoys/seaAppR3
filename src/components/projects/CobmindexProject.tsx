@@ -415,6 +415,112 @@ export const CobmindexProject: React.FC = () => {
         </div>
       </div>
 
+      {/* Video Demo */}
+      <div className="mb-10">
+        <h4 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
+          Channel 13 Coverage - Breakthrough Research for Crohn's Treatment
+        </h4>
+        <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 rounded-3xl p-8 md:p-12">
+          <div className="text-center mb-8">
+            <h5 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              TV News Report on COBMINDEX Research
+            </h5>
+            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+              Watch the special news report dedicated to the innovative COBMINDEX research on Channel 13, showcasing the research achievements and its impact on Crohn's patients
+            </p>
+          </div>
+          
+          {/* Video Thumbnail Container */}
+          <div className="max-w-4xl mx-auto">
+            <div className="relative group cursor-pointer rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500">
+              {/* Video Thumbnail Background */}
+              <div className="aspect-video bg-gradient-to-br from-purple-900 via-pink-900 to-purple-900 relative">
+                {/* YouTube Thumbnail Simulation */}
+                <div className="absolute inset-0 bg-black/20"></div>
+                <img 
+                  src="https://img.youtube.com/vi/w7p3TSlD1nE/maxresdefault.jpg" 
+                  alt="Channel 13 Coverage of COBMINDEX Research"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback if YouTube thumbnail fails
+                    e.currentTarget.src = '/images/cobmindex/mockap-01.png';
+                    e.currentTarget.className = 'w-full h-full object-contain bg-gradient-to-br from-purple-900 via-pink-900 to-purple-900 p-8';
+                  }}
+                />
+                
+                {/* Dark overlay */}
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-all duration-300"></div>
+                
+                {/* Play Button Overlay */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-24 h-24 md:w-32 md:h-32 bg-red-600 rounded-full flex items-center justify-center shadow-2xl transform group-hover:scale-110 transition-all duration-300 animate-pulse group-hover:animate-none">
+                    <div className="w-20 h-20 md:w-28 md:h-28 bg-white rounded-full flex items-center justify-center">
+                      <svg className="w-8 h-8 md:w-12 md:h-12 text-red-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Channel 13 Logo */}
+                <div className="absolute top-4 left-4">
+                  <div className="bg-black/50 backdrop-blur-sm rounded-lg px-3 py-2 flex items-center gap-2">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                      <span className="text-white font-bold text-sm">13</span>
+                    </div>
+                    <span className="text-white text-sm font-medium">Channel 13</span>
+                  </div>
+                </div>
+                
+                {/* News Badge */}
+                <div className="absolute bottom-4 right-4">
+                  <div className="bg-black/80 backdrop-blur-sm rounded-lg px-3 py-1">
+                    <span className="text-white text-sm font-medium">Science News</span>
+                  </div>
+                </div>
+                
+                {/* Hover Glow Effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 via-purple-500/20 to-pink-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+              
+              {/* Click Target */}
+              <a
+                href="https://www.youtube.com/watch?v=w7p3TSlD1nE&t=3s"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 z-10"
+                aria-label="Watch Channel 13 Report on COBMINDEX Research"
+              ></a>
+            </div>
+            
+            {/* Video Description */}
+            <div className="mt-8 text-center">
+              <div className="flex flex-wrap items-center justify-center gap-4 mb-4">
+                <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
+                  <span className="text-gray-700 font-medium">News Report</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2">
+                  <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H14" />
+                  </svg>
+                  <span className="text-gray-700 font-medium">Medical Research</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2">
+                  <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                  <span className="text-gray-700 font-medium">Ben-Gurion + Soroka</span>
+                </div>
+              </div>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Click to watch the special news report that presents the innovative COBMINDEX research, its impressive results, and the potential to improve the quality of life for Crohn's patients in Israel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Research Impact */}
       <div className="mb-10">
         <h4 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">

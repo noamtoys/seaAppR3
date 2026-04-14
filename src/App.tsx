@@ -143,7 +143,7 @@ function App() {
       <ProjectsTabs />
 
       {/* Testimonials Section */}
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       {/* FAQ Section */}
       <FAQ />

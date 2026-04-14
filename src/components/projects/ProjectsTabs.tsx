@@ -3,6 +3,8 @@ import { TabNavigation } from '../ui/TabNavigation';
 import { GreenbrushProject } from './GreenbrushProject';
 import { CobmindexProject } from './CobmindexProject';
 import { ISMBProject } from './ISMBProject';
+import { BurnsProject } from './BurnsProject';
+import { PFABotProject } from './PFABotProject';
 
 interface Project {
   id: string;
@@ -29,6 +31,18 @@ const projects: Project[] = [
     name: 'ISMB – Israeli Safety Officers Chamber',
     shortDescription: 'Digital platform for Israel\'s professional association of safety officers',
     component: ISMBProject,
+  },
+  {
+    id: 'burns',
+    name: 'BGU Burns Research – AI-Powered Burn Detection',
+    shortDescription: 'Advanced AI system for burn identification using secure, censored medical data collection at Ben-Gurion University',
+    component: BurnsProject,
+  },
+  {
+    id: 'pfabot',
+    name: 'PFABot – Psychological First Aid Chatbot',
+    shortDescription: 'AI-powered psychological support chatbot for soldiers and anxiety sufferers in three languages',
+    component: PFABotProject,
   },
 ];
 
