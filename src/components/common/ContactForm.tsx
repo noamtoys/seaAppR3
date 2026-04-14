@@ -261,7 +261,7 @@ export const ContactForm: React.FC = () => {
 
           {/* Contact Info */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 animate-fadeIn" style={{animationDelay: '0.3s'}}>
-            <a href="tel:050-123-4567" className="flex items-center gap-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all group">
+            <a href="tel:0547915533" className="flex items-center gap-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all group">
               <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -269,11 +269,11 @@ export const ContactForm: React.FC = () => {
               </div>
               <div>
                 <div className="text-sm text-gray-400 font-medium">Call Us</div>
-                <div className="text-white font-semibold">050-123-4567</div>
+                <div className="text-white font-semibold">054-791-5533</div>
               </div>
             </a>
 
-            <a href="mailto:info@seaapp.co.il" className="flex items-center gap-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all group">
+            <a href="mailto:info@3seaapps.com" className="flex items-center gap-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all group">
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -281,7 +281,7 @@ export const ContactForm: React.FC = () => {
               </div>
               <div>
                 <div className="text-sm text-gray-400 font-medium">Email Us</div>
-                <div className="text-white font-semibold">info@seaapp.co.il</div>
+                <div className="text-white font-semibold">info@3seaapps.com</div>
               </div>
             </a>
 

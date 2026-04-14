@@ -12,7 +12,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children, onNavigate }) 
     <div className="min-h-screen flex flex-col pt-20">
       <Header onNavigate={onNavigate} />
       <main className="flex-grow">{children}</main>
-      <Footer />
+      <Footer onNavigate={onNavigate} />
     </div>
   );
 };
